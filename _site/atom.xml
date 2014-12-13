@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>角煮の願い</title>
+ <link href="http://zico.github.io/" rel="self"/>
+ <link href="http://zico.github.io"/>
+ <updated>2014-12-14T07:13:53+09:00</updated>
+ <id>http://zico.github.io</id>
+ <author>
+   <name>Ryota Nakagawa</name>
+   <email>gico1222</email>
+ </author>
+
+ 
+ <entry>
+   <title>こんにちは</title>
+   <link href="http://zico.github.io/2014/12/14/Hello"/>
+   <updated>2014-12-14T00:00:00+09:00</updated>
+   <id>http://zico.github.io/2014/12/14/Hello</id>
+   <content type="html">&lt;p&gt;こんにちは、 &lt;a href=&quot;author.html&quot;&gt;zico&lt;/a&gt; です。 &lt;a href=&quot;http://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt; にてブログ『角煮の願い』を開設しました。作ったブログはこれで5つ目です。&lt;/p&gt;
+
+&lt;p&gt;よろしくお願いします。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

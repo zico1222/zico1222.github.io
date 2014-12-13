@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>角煮の願い</title>
+        <description>角煮の願い - Ryota Nakagawa</description>
+        <link>http://zico.github.io</link>
+        <link>http://zico.github.io</link>
+        <lastBuildDate>2014-12-14T07:13:53+09:00</lastBuildDate>
+        <pubDate>2014-12-14T07:13:53+09:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>こんにちは</title>
+                <description>&lt;p&gt;こんにちは、 &lt;a href=&quot;author.html&quot;&gt;zico&lt;/a&gt; です。 &lt;a href=&quot;http://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt; にてブログ『角煮の願い』を開設しました。作ったブログはこれで5つ目です。&lt;/p&gt;
+
+&lt;p&gt;よろしくお願いします。&lt;/p&gt;
+</description>
+                <link>http://zico.github.io/2014/12/14/Hello</link>
+                <guid>http://zico.github.io/2014/12/14/Hello</guid>
+                <pubDate>2014-12-14T00:00:00+09:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

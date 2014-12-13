@@ -1,0 +1,10 @@
+
+http://zico.github.io/archive.html
+http://zico.github.io/atom.xml
+http://zico.github.io/author.html
+http://zico.github.io/index.html
+http://zico.github.io/pages.html
+http://zico.github.io/rss.xml
+http://zico.github.io/sitemap.txt
+
+http://zico.github.io/2014/12/14/Hello
