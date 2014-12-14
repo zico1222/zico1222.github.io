@@ -54,8 +54,12 @@
       <div class="content">
         {{ content }}
       </div>
-	<a href="http://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20%2d%20{{ site.title | uri_escape }}&url={{ site.url | uri_escape }}{{ page.url | uri_escape }}"><i class="icon-twitter-sign"></i></a>
-	<a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url | uri_escape }}{{ page.url | uri_escape}}"><i class="icon-facebook-sign"></i></span></a>
+      {% if page.title == site.title %}
+      <a href="http://twitter.com/intent/tweet?text={{ site.title | uri_escape }}&url={{ site.url | uri_escape }}{{ page.url | uri_escape }}"><i class="icon-twitter-sign"></i></a>
+      {% else %}
+      <a href="http://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20%2d%20{{ site.title | uri_escape }}&url={{ site.url | uri_escape }}{{ page.url | uri_escape }}"><i class="icon-twitter-sign"></i></a>
+      {% endif %}
+      <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url | uri_escape }}{{ page.url | uri_escape}}"><i class="icon-facebook-sign"></i></span></a>
       <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
