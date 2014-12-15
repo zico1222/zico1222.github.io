@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    {% if page.title == site.title %}
+    <title>{{ page.title }}</title>    
+    {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -40,7 +44,6 @@
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }} <font size="2">{{ site.tagline }}</font></a>
           <ul class="nav">
-	    <li><a href="/author.html">Author</a></li>
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}

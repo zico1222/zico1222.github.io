@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Author
+group: navigation
 ---
 {% include JB/setup %}
 
