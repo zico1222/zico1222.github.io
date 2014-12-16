@@ -7,4 +7,5 @@ http://zico.github.io/pages.html
 http://zico.github.io/rss.xml
 http://zico.github.io/sitemap.txt
 
+http://zico.github.io/2014/12/16/2014-12-16-Math4Math
 http://zico.github.io/2014/12/14/Hello
